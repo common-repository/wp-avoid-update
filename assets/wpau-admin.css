@@ -1,0 +1,36 @@
+.wpau_modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('loader.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+body.wpau_loading .wpau_modal {
+    display: block;
+}
+
+.wp-list-table tr.active td.active {
+    border-left: 4px solid #00a0d2;
+}
+
+div#wpau_select_plugin_table_wrapper {
+  margin-top: 10px;
+  padding: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    
+h1.wpau_header {
+  font-size: 25px;
+  font-weight: 600;
+  color: #5D3F6A;
+  border-bottom: 4px solid #5D3F6A;
+  text-transform: uppercase;
+}
